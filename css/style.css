@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: "Merriweather-Regular";
+
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: "Montserrat-Bold";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: "Montserrat-SemiBold";
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento-Regular";
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-LightItalic.ttf);
+    font-family: "Merriweather-LightItalic";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+    font-family: "Montserrat-Thin";
+}
+@keyframes cloud{
+    0%{
+        opacity: 1;
+        transform: translateX(-90vw);
+    }
+    10%{
+        opacity: 1;
+        transform: translateX(60rem);
+    }
+}
+@keyframes cloud1{
+    0%{
+        opacity: 1;
+        transform: translateX(80vw);
+    }
+    10%{
+        opacity: 1;
+        transform: translateX(-70vw);
+    }
+}
+@keyframes cloud2{
+    0%{
+        opacity: 1;
+        transform: translateX(80vw);
+    }
+    10%{
+        opacity: 1;
+        transform: translateX(-60vw);
+    }
+}
+@keyframes cloud3{
+    0%{
+        opacity: 1;
+        transform: translateX(-90vw);
+    }
+    10%{
+        opacity: 1;
+        transform: translateX(75rem);
+    }
+}
+
+div{
+    margin-top: 20rem;
+}
+
+header{
+    background: #7bd5f5;
+    color: #5e72eb;
+}
+
+.cloud{
+    margin-top: 5rem;
+    margin-left: 60rem;
+    animation: cloud 100s linear;
+    position: relative;
+}
+
+.cloud1{
+    float: left;
+    position: relative;
+    margin: 6rem;
+    animation: cloud1 100s linear;
+}
+
+.name{
+    font-family: "Sacramento-Regular";
+    margin-top: 7rem;
+    font-size: 8rem;
+    position: relative;
+    float: center;
+}
+
+.name:hover{
+    background-image: url(../Images/heart2.gif);
+    color: white;
+}
+
+.title{
+    font-family: "Merriweather-LightItalic";
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.title:hover{
+    color: white;
+}
+
+.cloud3{
+    float: right;
+    position: relative;
+    margin-top: -10rem;
+    animation: cloud3 100s linear;
+}
+
+.cloud2{
+    margin-top: 5rem;
+    margin-left: 20rem;
+    display: block;
+    animation: cloud2 100s linear;
+}
+
+.tree{
+    position: relative;
+    height: 20rem;
+    float: left;
+}
+
+.mountain{
+    position: relative;
+    height: 20rem;
+    float: center;
+}
+.pine{
+    position: relative;
+    height: 20rem;
+    float: right;
+}
+
+.me{
+    height: 25rem;
+    border-radius: 3rem;
+}
+
+.hello{
+    margin-top: 1rem;
+    font-size: 6rem;
+    color: #5e72eb;
+    margin-bottom: 5rem;
+    font-family: "Montserrat-Thin";
+}
+
+.milktea{
+    background-image: url(../Images/milktea.gif);
+    background-position: center;
+    background-size: 25rem;
+    margin-top: 2rem;
+}
+
+.title3{
+    margin: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    padding: 7rem;
+    
+}
+
+.title2{
+    margin: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    color: #5e72eb;
+    font-family: "Montserrat-Bold";
+    font-size: 4rem;
+}
+
+.myskills{
+    margin-bottom: 8rem;
+    font-weight: bold;
+    font-size: 6rem;
+    color: #5e72eb;
+    font-family: "Montserrat-Thin";
+}
+
+.pixel{
+    background-image: url(../Images/pixel.gif);
+    background-position: center;
+    background-size: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 13rem;
+}
+.music{
+    background-image: url(../Images/music.gif);
+    background-position: center;
+    background-size: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.description{
+    text-align: center;
+    height: 10rem;
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+.browser{
+    float: left;
+    height: 20rem ;
+    margin: 2rem;
+    margin-left: 15rem;
+}
+
+.musics{
+    float: right;
+    right: 60rem;
+    height: 20rem;
+    margin: 2rem;
+    margin-right: 15rem;
+}
+
+.git{
+    font-size: 4rem;
+    color: #5e72eb;
+    font-family: "Montserrat-Bold";
+    margin: 2rem;
+}
+
+.let{
+    font-size: 3rem;
+    color: #5e72eb;
+    margin: 3rem;
+    font-family: "Montserrat-SemiBold";
+}
+
+.prog{
+    font-size: 1.5rem;
+    color: #5e72eb;
+    margin: 1rem;
+}
+
+.contact{
+    margin-top: 5rem;
+    background: #5e72eb;
+    color: white;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    font-style: normal;
+    border-radius: 3rem;
+}
+
+.contact:hover{
+    background: #7bd5f5;
+    color: white;
+}
+
+footer{
+    background: #7bd5f5 ;
+    color: black;
+    height: 5rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
