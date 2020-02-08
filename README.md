@@ -1,1 +1,2 @@
 # chyn.me
+Just practicing
